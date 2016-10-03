@@ -88,7 +88,16 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Installed node modules
 /node_modules
 
+# Test database
 *.sqlite3
+
+# Pycharm project files
 *.idea
+
+# Don't want node dependencies installed in circle ci
+package.json
+
+
